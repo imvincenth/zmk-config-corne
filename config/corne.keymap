@@ -48,7 +48,7 @@
             bindings = <
 &trans  &kp GRAVE     &kp LS(LT)    &kp LS(GT)        &kp MINUS          &kp PIPE       &kp CARET    &kp LEFT_BRACE            &kp RIGHT_BRACE            &kp DOLLAR  &kp DELETE         &trans
 &trans  &kp LS(EXCL)  &kp ASTERISK  &kp SLASH         &kp EQUAL          &kp AMPS       &kp POUND    &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp SEMI    &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE     &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &kp AT_SIGN  &kp COLON                 &kp COMMA                  &kp PERIOD  &kp SINGLE_QUOTE   &trans
+&trans  &kp TILDE     &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &kp AT_SIGN  &kp COLON                 &kp COMMA                  &kp PERIOD  &kp QMARK          &trans
                                     &trans            &trans             &trans         &trans       &trans                    &trans
             >;
         };
