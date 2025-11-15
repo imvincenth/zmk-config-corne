@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
@@ -54,10 +55,10 @@
 
         Navigation {
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans    &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans     &trans    &trans    &trans     &trans  &trans
-                                    &trans     &trans          &trans    &trans     &trans    &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &kp PG_UP       &kp HOME    &kp UP      &kp END    &trans  &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp PG_DN       &kp LEFT    &kp DOWN    &kp RIGHT  &trans  &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans          &trans      &trans      &trans     &trans  &trans
+                                    &trans     &trans          &trans    &bt BT_CLR_ALL  &bt BT_PRV  &bt BT_NXT
             >;
         };
     };
