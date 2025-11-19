@@ -20,7 +20,12 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <12 0>;
+            key-positions = <1 2>;
+        };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 1>;
         };
     };
 
