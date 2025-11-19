@@ -45,7 +45,16 @@
 &kp TAB    &kp V           &kp L           &kp H        &kp G             &kp K    &kp Q    &kp F              &kp O        &kp U            &kp J            &kp BSPC
 &kp ESC    &mt LEFT_GUI S  &mt LEFT_ALT R  &mt LCTRL N  &mt LEFT_SHIFT T  &kp B    &kp Y    &mt RIGHT_SHIFT C  &mt RCTRL A  &mt RIGHT_ALT E  &mt RIGHT_GUI I  &kp FSLH
 &kp LSHFT  &kp Z           &kp X           &kp M        &kp D             &kp P    &kp SQT  &kp W              &kp DOT      &kp SEMI         &kp COMMA        &kp LSHFT
-                                           &mo 1        &kp SPACE         &mo 3    &kp RET  &kp BSPC           &mo 2
+                                           &mo 1        &kp SPACE         &mo 2    &kp RET  &kp BSPC           &mo 3
+            >;
+        };
+
+        Symbols {
+            bindings = <
+&trans  &kp GRAVE     &kp LS(LT)    &kp LS(GT)        &kp MINUS          &kp PIPE       &kp CARET    &kp LEFT_BRACE            &kp RIGHT_BRACE            &kp DOLLAR  &kp DELETE  &trans
+&trans  &kp LS(EXCL)  &kp ASTERISK  &kp SLASH         &kp EQUAL          &kp AMPS       &kp POUND    &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp SEMI    &kp UNDER   &trans
+&trans  &kp TILDE     &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &kp AT_SIGN  &kp COLON                 &kp COMMA                  &kp PERIOD  &kp QMARK   &trans
+                                    &trans            &trans             &trans         &trans       &trans                    &trans
             >;
         };
 
@@ -58,21 +67,12 @@
             >;
         };
 
-        Symbols {
-            bindings = <
-&trans  &kp GRAVE     &kp LS(LT)    &kp LS(GT)        &kp MINUS          &kp PIPE       &kp CARET    &kp LEFT_BRACE            &kp RIGHT_BRACE            &kp DOLLAR  &kp DELETE         &trans
-&trans  &kp LS(EXCL)  &kp ASTERISK  &kp SLASH         &kp EQUAL          &kp AMPS       &kp POUND    &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp SEMI    &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE     &kp PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT    &kp AT_SIGN  &kp COLON                 &kp UNDERSCORE             &kp PERIOD  &kp QMARK          &trans
-                                    &trans            &trans             &trans         &trans       &trans                    &trans
-            >;
-        };
-
         Navigation {
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans    &kp PG_UP       &kp HOME    &kp UP      &kp END    &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp PG_DN       &kp LEFT    &kp DOWN    &kp RIGHT  &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans          &trans      &trans      &trans     &trans  &trans
-                                    &trans     &trans          &trans    &bt BT_CLR_ALL  &bt BT_PRV  &bt BT_NXT
+&trans  &trans        &trans        &trans      &trans          &trans        &kp PG_UP  &kp HOME  &kp UP    &kp END    &trans  &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL   &kp LEFT_SHIFT  &trans        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans        &trans        &trans      &trans          &trans        &trans     &trans    &trans    &trans     &trans  &trans
+                                    &bt BT_PRV  &bt BT_NXT      &bt BT_CLR    &trans     &trans    &trans
             >;
         };
     };
