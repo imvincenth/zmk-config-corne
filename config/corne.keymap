@@ -42,10 +42,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp V           &kp L           &kp H        &kp G             &kp K    &kp Q    &kp F              &kp O        &kp U            &kp J            &kp BSPC
-&kp ESC    &mt LEFT_GUI S  &mt LEFT_ALT R  &mt LCTRL N  &mt LEFT_SHIFT T  &kp B    &kp Y    &mt RIGHT_SHIFT C  &mt RCTRL A  &mt RIGHT_ALT E  &mt RIGHT_GUI I  &kp FSLH
-&kp LSHFT  &kp Z           &kp X           &kp M        &kp D             &kp P    &kp SQT  &kp W              &kp DOT      &kp SEMI         &kp COMMA        &kp LSHFT
-                                           &mo 1        &kp SPACE         &mo 2    &kp RET  &kp BSPC           &mo 3
+&trans  &kp V           &kp L           &kp H        &kp G             &kp K    &kp Q    &kp F              &kp O        &kp U            &kp J            &trans
+&trans  &mt LEFT_GUI S  &mt LEFT_ALT R  &mt LCTRL N  &mt LEFT_SHIFT T  &kp B    &kp Y    &mt RIGHT_SHIFT C  &mt RCTRL A  &mt RIGHT_ALT E  &mt RIGHT_GUI I  &trans
+&trans  &kp Z           &kp X           &kp M        &kp D             &kp P    &kp SQT  &kp W              &kp DOT      &kp SEMI         &kp COMMA        &kp LSHFT
+                                        &mo 1        &kp SPACE         &mo 2    &kp RET  &kp BSPC           &mo 3
             >;
         };
 
@@ -60,10 +60,10 @@
 
         Numbers {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &kp SLASH     &kp N7    &kp N8  &kp N9  &trans  &trans
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12    &kp ASTERISK  &kp N4    &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans   &trans   &trans     &kp MINUS     &kp N1    &kp N2  &kp N3  &trans  &trans
-                        &trans   &trans   &trans     &trans        &kp PLUS  &kp N0
+&trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans    &kp SLASH     &kp N7    &kp N8  &kp N9  &trans  &trans
+&trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans    &kp ASTERISK  &kp N4    &kp N5  &kp N6  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans    &kp MINUS     &kp N1    &kp N2  &kp N3  &trans  &trans
+                        &trans  &trans   &trans    &trans        &kp PLUS  &kp N0
             >;
         };
 
